@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto";
+}
+
+header .apple {
+  padding: 0px 64px 0px 64px;
+  border-bottom: 1px solid #676767;
+}
+header .apple .sub_container_one {
+  padding: 12px 0px 0px 0px;
+}
+header .apple .sub_container_one .final_container {
+  display: flex;
+  justify-content: space-between;
+}
+header .apple .sub_container_one .final_container .address {
+  display: flex;
+  gap: 16px;
+}
+header .apple .sub_container_one .final_container .address .info {
+  padding: 3px 16px;
+  border-right: 1px solid #676767;
+  font-weight: 400;
+  font-size: 18.49px;
+  line-height: 150%;
+}
+header .apple .sub_container_one .final_container .address .info:nth-child(1) {
+  font-weight: 600;
+  font-size: 21.13px;
+  line-height: 150%;
+}
+header .apple .sub_container_one .final_container .address span {
+  padding: 3px 16px;
+  font-weight: 400;
+  font-size: 18.49px;
+  line-height: 150%;
+  margin: 0px 0px 16px;
+  font-weight: 400;
+  font-size: 18.49px;
+  line-height: 150%;
+}
+header .apple .sub_container_one .final_container .icons {
+  gap: 12px;
+}
+header .apple .sub_container_one .final_container .icons img {
+  padding-right: 12px;
+}
+header .sub_container_two {
+  border-bottom: 1px solid #676767;
+}
+header .sub_container_two .mango {
+  padding: 16px 64px 16px 64px;
+}
+header .sub_container_two .mango nav div .menu ul {
+  gap: 32px;
+}
+header .sub_container_two .mango nav div .menu ul li {
+  font-size: 21.13px;
+  font-weight: 400;
+  line-height: 150%;
+}
+header .sub_container_two .mango nav div .menu ul li a {
+  color: #000000;
+}
+header .sub_container_two .mango nav div .menu ul li button {
+  background-color: #000000;
+  padding: 8px 20px 8px 20px;
+  color: #ffffff;
+  font-size: 21.13px;
+  transition: all 0.5s ease;
+}
+header .sub_container_two .mango nav div .menu ul li button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.contact_section {
+  padding: 147.93px 84.53px;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact_section .sub_container {
+  width: 48%;
+}
+.contact_section .sub_container .form_div .heading {
+  margin-bottom: 32px;
+}
+.contact_section .sub_container .form_div .heading h5 {
+  font-weight: 600;
+  font-size: 21.13px;
+  line-height: 150%;
+  margin-bottom: 21.13px;
+}
+.contact_section .sub_container .form_div .heading h2 {
+  font-weight: 700;
+  font-size: 63.4px;
+  line-height: 120%;
+  margin-bottom: 31.7px;
+}
+.contact_section .sub_container .form_div .heading p {
+  font-weight: 400px;
+  font-size: 23.78px;
+  line-height: 150%;
+  margin-bottom: 42.27px;
+}
+.contact_section .sub_container .form_div .form form .main_items {
+  margin-bottom: 31.7px;
+}
+.contact_section .sub_container .form_div .form form .main_items .sub_items input {
+  border: 1px solid black;
+  width: 391.23px;
+  height: 63.44px;
+  border-radius: 6.61px;
+}
+.contact_section .sub_container .form_div .form form .main_items .sub_items label {
+  font-weight: 400;
+  font-size: 21.13px;
+  line-height: 150%;
+  margin-bottom: 10.57px;
+}
+.contact_section .sub_container .form_div .form form .main_items .sub_items select {
+  border: 1px solid black;
+  width: 391.23px;
+  height: 63.44px;
+  border-radius: 6.61px;
+}
+.contact_section .sub_container .form_div .form form .main_items textarea {
+  padding: 12px;
+  width: 814.18px;
+  height: 237.91px;
+  border: 1px solid black;
+  border-radius: 6.61px;
+}
+.contact_section .sub_container .form_div .form form .main_items .radio {
+  border: 1px solid black;
+  width: 23.79px;
+  height: 23.79px;
+}
+.contact_section .sub_container .form_div .form form .main_items .radiotwo {
+  font-size: 18.5px;
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 13px;
+}
+.contact_section .sub_container .form_div .form form .main_items button {
+  border: 1px solid black;
+  padding: 15.86px 31.72px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 31.7px;
+  font-size: 21.15px;
+  font-weight: 400;
+  line-height: 150%;
+  transition: all 0.5s ease;
+}
+.contact_section .sub_container .form_div .form form .main_items button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.contact_section .sub_container .form_div .form form .main_items label {
+  font-weight: 400;
+  font-size: 21.13px;
+  line-height: 150%;
+  margin-bottom: 10.57px;
+}
+.contact_section .sub_container .form_div .form form .two {
+  display: flex;
+  align-items: center;
+  width: 190px;
+  justify-content: space-between;
+  margin-top: 31.7px;
+}
+.contact_section .sub_container:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.help_section {
+  padding: 148.03px 84.59px;
+}
+.help_section .sub_container {
+  border: 1.32px solid black;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.help_section .sub_container .inner_container h3 {
+  font-weight: 700;
+  font-size: 52.87px;
+  line-height: 120%;
+  margin-bottom: 31.72px;
+}
+.help_section .sub_container .inner_container p {
+  font-weight: 400;
+  font-size: 23.79px;
+  line-height: 150%;
+}
+.help_section .sub_container .inner_container button {
+  padding: 15.86px 31.72px;
+  border: 1px solid black;
+  border-radius: 6.61px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 21.15px;
+  line-height: 150%;
+  transition: all 0.5s ease;
+}
+.help_section .sub_container .inner_container button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.subscribe_section {
+  padding: 147.93px 443.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe_section .sub_container {
+  padding: 0px 24px;
+}
+.subscribe_section .sub_container h2 {
+  font-weight: 700;
+  font-size: 63.4px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 31.7px;
+}
+.subscribe_section .sub_container p {
+  font-weight: 400;
+  font-size: 23.78px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 31.7px;
+}
+.subscribe_section .sub_container .one {
+  font-size: 15.85px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.subscribe_section .sub_container .inner_div {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 21.13px;
+}
+.subscribe_section .sub_container .inner_div input {
+  width: 520.76px;
+  height: 63.72px;
+  border-radius: 6.61px;
+  border: 1.32px solid black;
+  width: 394px;
+  margin-bottom: 16px;
+}
+.subscribe_section .sub_container .inner_div input::-moz-placeholder {
+  font-size: 21.5px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #505050;
+}
+.subscribe_section .sub_container .inner_div input::placeholder {
+  font-size: 21.5px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #505050;
+}
+.subscribe_section .sub_container .inner_div button {
+  padding: 15.86px 31.72px;
+  border-radius: 6.61px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 21.15px;
+  font-weight: 400;
+  line-height: 150%;
+  border: 1.32px solid black;
+  transition: all 0.5s ease;
+}
+.subscribe_section .sub_container .inner_div button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+footer {
+  padding: 105.67px 84.53px;
+}
+footer .sub_container_one {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  -moz-column-gap: 169.07px;
+       column-gap: 169.07px;
+}
+footer .sub_container_one .item_one img {
+  margin-bottom: 31.7px;
+}
+footer .sub_container_one .item_one p {
+  font-weight: 400;
+  font-size: 21.13px;
+  line-height: 150%;
+  margin-bottom: 31.7px;
+}
+footer .sub_container_one .item_one form {
+  display: flex;
+  gap: 21.13px;
+  margin-bottom: 21.13px;
+}
+footer .sub_container_one .item_one form input {
+  width: 482.43pxpx;
+  height: 63.72px;
+  border-radius: 6.61px;
+  border: 1.32px solid black;
+}
+footer .sub_container_one .item_one form input::-moz-placeholder {
+  font-size: 21.15px;
+  font-weight: 400;
+  line-height: 150%;
+}
+footer .sub_container_one .item_one form input::placeholder {
+  font-size: 21.15px;
+  font-weight: 400;
+  line-height: 150%;
+}
+footer .sub_container_one .item_one form button {
+  padding: 15.86px 31.72px;
+  font-size: 21.15px;
+  font-weight: 400;
+  line-height: 150%;
+  border: 1px solid black;
+  transition: all 0.5s ease;
+}
+footer .sub_container_one .item_one form button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+footer .sub_container_one .item_one .para {
+  font-weight: 400;
+  font-size: 15.85px;
+  line-height: 150%;
+}
+footer .links {
+  display: flex;
+  -moz-column-gap: 52.83px;
+       column-gap: 52.83px;
+}
+footer .links .item {
+  width: 265.93px;
+}
+footer .links .item h5 {
+  font-weight: 600;
+  font-size: 21.13px;
+  line-height: 150%;
+}
+footer .links .item ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 21.13px;
+}
+footer .links .item ul li a {
+  display: block;
+  padding: 10.57px 0px;
+  text-decoration: none;
+  font-size: 18.49px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #000000;
+}
+footer .sub_container_two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42.27px;
+  padding-bottom: 0px;
+  border-top: 1.31px solid black;
+}
+footer .sub_container_two p {
+  font-weight: 400;
+  font-size: 18.49px;
+  line-height: 150%;
+}
+footer .sub_container_two ul {
+  list-style: none;
+  display: flex;
+  gap: 31.7px;
+}
+footer .sub_container_two ul li a {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18.49px;
+  line-height: 150%;
+}/*# sourceMappingURL=style.css.map */
